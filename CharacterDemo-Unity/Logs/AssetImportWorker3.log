@@ -1,0 +1,843 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.1f1 (3b70a0754835) revision 3895456'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 32699 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+H:/Character Design/CHaracter Unity/Character-Demo/CharacterDemo-Unity
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+52631
+Successfully changed project path to: H:/Character Design/CHaracter Unity/Character-Demo/CharacterDemo-Unity
+H:/Character Design/CHaracter Unity/Character-Demo/CharacterDemo-Unity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 72.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.1f1 (3b70a0754835)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path H:/Character Design/CHaracter Unity/Character-Demo/CharacterDemo-Unity/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA Quadro RTX 4000 (ID=0x1eb1)
+    Vendor:   NVIDIA
+    VRAM:     8018 MB
+    Driver:   30.0.14.7247
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011396 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 71.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.719 seconds
+Domain Reload Profiling:
+	ReloadAssembly (720ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (494ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (114ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (291ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (71ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005211 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 88.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Package Manager log level set to [2]
+[Package Manager] Server::Start -- Port 52699 was selected
+[Package Manager] Cannot connect to Unity Package Manager local server
+Cannot connect to Unity Package Manager local server
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+StarterAssets.PackageChecker:CheckPackage () (at Assets/StarterAssets/Editor/PackageChecker/PackageChecker.cs:73)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/StarterAssets/Editor/PackageChecker/PackageChecker.cs Line: 73)
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at StarterAssets.PackageChecker.CheckPackage () [0x001ba] in H:\Character Design\CHaracter Unity\Character-Demo\CharacterDemo-Unity\Assets\StarterAssets\Editor\PackageChecker\PackageChecker.cs:105 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <6073cf49ed704e958b8a66d540dea948>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <1135c66e5f4c41a7831fa5798849d8b6>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.697 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4698ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (4425ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (252ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (3951ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (348ms)
+				ProcessInitializeOnLoadMethodAttributes (3368ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3816 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (0.5 MB). Loaded Objects now: 4278.
+Memory consumption went from 172.7 MB to 172.2 MB.
+Total: 4.455500 ms (FindLiveObjects: 0.392100 ms CreateObjectMapping: 0.102400 ms MarkObjects: 3.612400 ms  DeleteObjects: 0.347000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014776 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+<b>Package version match</b>: com.unity.cinemachine@2.8.4 matches latest verified version 2.8.4. Skipped install
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+StarterAssets.PackageChecker:CheckPackage () (at Assets/StarterAssets/Editor/PackageChecker/PackageChecker.cs:164)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/StarterAssets/Editor/PackageChecker/PackageChecker.cs Line: 164)
+
+<b>Package version match</b>: com.unity.inputsystem@1.3.0 matches latest verified version 1.3.0. Skipped install
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+StarterAssets.PackageChecker:CheckPackage () (at Assets/StarterAssets/Editor/PackageChecker/PackageChecker.cs:164)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/StarterAssets/Editor/PackageChecker/PackageChecker.cs Line: 164)
+
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+StarterAssets.PackageChecker:ReimportPackagesByKeyword () (at Assets/StarterAssets/Editor/PackageChecker/PackageChecker.cs:224)
+StarterAssets.PackageChecker:CheckPackage () (at Assets/StarterAssets/Editor/PackageChecker/PackageChecker.cs:194)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/StarterAssets/Editor/PackageChecker/PackageChecker.cs line 224]
+
+Assets queued for import after Refresh completed:
+	Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_AlbedoTransparency.tif
+	Assets/StarterAssets/Mobile/Scripts/VirtualInputs
+	Assets/StarterAssets/ThirdPersonController/Prefabs
+	Assets/StarterAssets/Mobile/Prefabs
+	Assets/StarterAssets/ThirdPersonController/Scenes/Playground/ReflectionProbe-2.exr
+	Assets/StarterAssets/Environment/Prefabs/Stairs_200x100x200_Prefab.prefab
+	Assets/StarterAssets/Environment/Art/Materials
+	Assets/StarterAssets/Environment/Art/Textures/Grid_01_Normal.png
+	Assets/StarterAssets/Environment/Shaders/URP_HDRP_ShaderGraph/UrpTriplanar.shadergraph
+	Assets/StarterAssets/Environment/Art/Materials/GridBlue_01_Mat.mat
+	Assets/StarterAssets/Environment/Art/Skybox/SkyboxLiteWarm.mat
+	Assets/StarterAssets/ThirdPersonController/Scripts/BasicRigidBodyPush.cs
+	Assets/StarterAssets/InputSystem
+	Assets/StarterAssets/Environment/Art/Models/Box_350x250x200_Mesh.fbx
+	Assets/StarterAssets/ThirdPersonController/Character/Materials/Built-in_RP/M_ArmatureColor_Legs.mat
+	Assets/StarterAssets/TutorialInfo
+	Assets/StarterAssets/Environment/Prefabs/Ramp_Prefab.prefab
+	Assets/StarterAssets/Environment/Art/Materials/Built-in_RP
+	Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_Normal.tif
+	Assets/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Walk_N.anim.fbx
+	Assets/StarterAssets/Environment/Art/Models/Tunnel_Mesh.fbx
+	Assets/StarterAssets/ThirdPersonController/Character/Materials/Built-in_RP
+	Assets/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs
+	Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs
+	Assets/StarterAssets/ThirdPersonController/Scenes
+	Assets/StarterAssets/ThirdPersonController/Character
+	Assets/StarterAssets/ThirdPersonController/Prefabs/MainCamera.prefab
+	Assets/StarterAssets/Mobile/UI/UI_Icon_Look.png
+	Assets/StarterAssets/Mobile/Scripts/CanvasInputs
+	Assets/StarterAssets/Environment/Art/Textures/Grid_01_Emissive.png
+	Assets/StarterAssets/Environment/Art/Models/Stairs_200x100x200_Mesh.fbx
+	Assets/StarterAssets/Environment/Art/Models/Stairs_650_400_300_Mesh.fbx
+	Assets/StarterAssets/Environment
+	Assets/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Walk_N_Land.anim.fbx
+	Assets/StarterAssets/Editor/PackageChecker/PackageChecker.cs
+	Assets/StarterAssets/ThirdPersonController/Scenes/Playground.unity
+	Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Arms.mat
+	Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_RGB.tif
+	Assets/StarterAssets/Editor/PackageChecker
+	Assets/StarterAssets/license.txt
+	Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_RGB.tif
+	Assets/StarterAssets/Mobile/UI/UI_Icon_Sprint.png
+	Assets/StarterAssets/ThirdPersonController/Prefabs/NestedParentArmature_Unpack.prefab
+	Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Body_Normal.tif
+	Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Body_RGB.tif
+	Assets/StarterAssets/Mobile/UI/UI_Icon_Jump.png
+	Assets/StarterAssets/Environment/Art/Skybox/SkyboxLite.mat
+	Assets/StarterAssets/Editor/PackageChecker/PackageImportList.txt
+	Assets/StarterAssets/Environment/Prefabs/Environment_Prefab.prefab
+	Assets/StarterAssets/ThirdPersonController/Character/Animations/Stand--Idle.anim.fbx
+	Assets/StarterAssets/Environment/Art/Models/Ramp_Mesh.fbx
+	Assets/StarterAssets/Environment/Art/Models/Wall_Mesh.fbx
+	Assets/StarterAssets/Mobile/Prefabs/VirtualInputs/UI_Virtual_Button.prefab
+	Assets/StarterAssets/ThirdPersonController/Scenes/Playground/LightingData.asset
+	Assets/StarterAssets/ThirdPersonController/Scenes/PlaygroundSettings.lighting
+	Assets/StarterAssets/Mobile/Prefabs/VirtualInputs/UI_Virtual_TouchZone.prefab
+	Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Body_MetallicSmoothness.tif
+	Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs
+	Assets/StarterAssets/Mobile/Prefabs/VirtualInputs
+	Assets/StarterAssets/ThirdPersonController/Character/Animations/Guy Controller.controller
+	Assets/StarterAssets/TutorialInfo/Icons/ReadMeImg.PNG
+	Assets/StarterAssets/ThirdPersonController/Character/Models/Armature.fbx
+	Assets/StarterAssets/Environment/Prefabs/Box_100x100x100_Prefab.prefab
+	Assets/StarterAssets/ThirdPersonController/Prefabs/NestedParentCapsule_Unpack.prefab
+	Assets/StarterAssets/ThirdPersonController/Prefabs/PlayerFollowCamera.prefab
+	Assets/StarterAssets/ThirdPersonController/Scenes/Playground/ReflectionProbe-0.exr
+	Assets/StarterAssets/Environment/Art/Skybox
+	Assets/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Run_N_Land.anim.fbx
+	Assets/StarterAssets/ThirdPersonController/Scripts
+	Assets/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Run_S.anim.fbx
+	Assets/StarterAssets/ThirdPersonController/Character/Animations/Jump--InAir.anim.fbx
+	Assets/StarterAssets/Mobile/Prefabs/VirtualInputs/UI_Virtual_Joystick.prefab
+	Assets/StarterAssets/Environment/RenderPipelineProfiles/StarterAssetsHDRPVolumeProfile.asset
+	Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs
+	Assets/StarterAssets/Editor/ThirdPersonStarterAssetsDeployMenu.cs
+	Assets/StarterAssets/Environment/Art/Materials/Blue_Mat.mat
+	Assets/StarterAssets/Environment/Art/Textures/Grid_01_BaseMap.png
+	Assets/StarterAssets/ThirdPersonController/Character/Animations/StarterAssetsThirdPerson 1.controller
+	Assets/StarterAssets/Mobile/UI/UI_Circle_Faded.png
+	Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_Normal.tif
+	Assets/StarterAssets/Environment/Shaders/Built-in_RP/ArmatureShader.shader
+	Assets/StarterAssets/Environment/Art/Materials/GridOrange_01_Mat.mat
+	Assets/StarterAssets/Mobile/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_TouchZones.prefab
+	Assets/StarterAssets/Editor
+	Assets/StarterAssets/Environment/Art/Models/Ramp_100x100x200_Mesh.fbx
+	Assets/StarterAssets/ThirdPersonController/Character/Materials/Built-in_RP/M_ArmatureColor_Body.mat
+	Assets/StarterAssets/InputSystem/StarterAssets.inputactions
+	Assets/StarterAssets/Environment/Prefabs/Box_350x250x300_Prefab.prefab
+	Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_MetallicSmoothness.tif
+	Assets/StarterAssets/Environment/Prefabs/Structure_Prefab.prefab
+	Assets/StarterAssets/ThirdPersonController/Character/Textures
+	Assets/StarterAssets/ThirdPersonController/Scenes/Playground/ReflectionProbe-1.exr
+	Assets/StarterAssets
+	Assets/StarterAssets/Environment/Prefabs/Stairs_650_400_300_Prefab.prefab
+	Assets/StarterAssets/Mobile/Scripts/Utilities/MobileDisableAutoSwitchControls.cs
+	Assets/StarterAssets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+	Assets/StarterAssets/ThirdPersonController/Character/Animations/Jump--Jump.anim.fbx
+	Assets/StarterAssets/Environment/Art/Textures/Grid_02_BaseMap.png
+	Assets/StarterAssets/Mobile/Prefabs/EventSystem
+	Assets/StarterAssets/Mobile/Scripts/Utilities
+	Assets/StarterAssets/Environment/Shaders/Built-in_RP/Triplanar.shader
+	Assets/StarterAssets/TutorialInfo/Icons
+	Assets/StarterAssets/Mobile/UI
+	Assets/StarterAssets/Environment/Art/Models/Box_350x250x300_Mesh.fbx
+	Assets/StarterAssets/ThirdPersonController/Prefabs/PlayerCapsule.prefab
+	Assets/StarterAssets/ThirdPersonController/Character/Materials
+	Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_AlbedoTransparency.tif
+	Assets/StarterAssets/TutorialInfo/Scripts/Readme.cs
+	Assets/StarterAssets/Environment/Art/Materials/URP_HDRP_ShaderGraph/ShaderGraphGrid_01_Mat.mat
+	Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualJoystick.cs
+	Assets/StarterAssets/Environment/Shaders/Built-in_RP
+	Assets/StarterAssets/ThirdPersonController/Character/Materials/Built-in_RP/M_ArmatureColor_Arms.mat
+	Assets/StarterAssets/Environment/Prefabs
+	Assets/StarterAssets/Environment/Prefabs/Tunnel_Prefab.prefab
+	Assets/StarterAssets/Environment/Art/Materials/Built-in_RP/BuiltInTriplanar_01_Mat.mat
+	Assets/StarterAssets/Editor/ScriptingDefineUtils.cs
+	Assets/StarterAssets/Environment/Prefabs/Wall_Prefab.prefab
+	Assets/StarterAssets/Environment/Shaders
+	Assets/StarterAssets/Readme.asset
+	Assets/StarterAssets/TutorialInfo/Scripts
+	Assets/StarterAssets/Environment/Shaders/URP_HDRP_ShaderGraph
+	Assets/StarterAssets/Environment/RenderPipelineProfiles
+	Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Body_AlbedoTransparency.tif
+	Assets/StarterAssets/Mobile/UI/UI_Icon_Move.png
+	Assets/StarterAssets/Environment/Art/Materials/GridWhite_01_Mat.mat
+	Assets/StarterAssets/InputSystem/StarterAssets.inputsettings.asset
+	Assets/StarterAssets/Mobile/Scripts
+	Assets/StarterAssets/Environment/Art/Textures
+	Assets/StarterAssets/ThirdPersonController/Character/Animations
+	Assets/StarterAssets/Mobile/Prefabs/EventSystem/UI_EventSystem.prefab
+	Assets/StarterAssets/Mobile/UI/UI_Circle_Bevel_Base.png
+	Assets/StarterAssets/Environment/Art
+	Assets/StarterAssets/Mobile/Prefabs/CanvasInputs
+	Assets/StarterAssets/ThirdPersonController/Prefabs/PlayerArmature.prefab
+	Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Legs.mat
+	Assets/StarterAssets/Mobile/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_Joysticks.prefab
+	Assets/StarterAssets/ThirdPersonController
+	Assets/StarterAssets/Environment/Art/Models
+	Assets/StarterAssets/TutorialInfo/Scripts/Editor
+	Assets/StarterAssets/Environment/Art/Materials/URP_HDRP_ShaderGraph
+	Assets/StarterAssets/Mobile
+	Assets/StarterAssets/Environment/Art/Models/Ground_Mesh.fbx
+	Assets/StarterAssets/Editor/StarterAssetsDeployMenu.cs
+	Assets/StarterAssets/StarterAssets_Documentation.pdf
+	Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Body.mat
+	Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualButton.cs
+	Assets/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Run_N.anim.fbx
+	Assets/StarterAssets/Environment/Art/Models/Structure_Mesh.fbx
+	Assets/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_MetallicSmoothness.tif
+	Assets/StarterAssets/Environment/Art/Materials/GreyBlue_Mat.mat
+	Assets/StarterAssets/Environment/Prefabs/Box_350x250x200_Prefab.prefab
+	Assets/StarterAssets/ThirdPersonController/Character/Models
+	Assets/StarterAssets/ThirdPersonController/Scenes/Playground
+Asset Pipeline Refresh: Total: 0.001 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+StarterAssets.PackageChecker:ReimportPackagesByKeyword () (at Assets/StarterAssets/Editor/PackageChecker/PackageChecker.cs:224)
+StarterAssets.PackageChecker:CheckPackage () (at Assets/StarterAssets/Editor/PackageChecker/PackageChecker.cs:194)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[Assets/StarterAssets/Editor/PackageChecker/PackageChecker.cs line 224]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  7.133 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7133ms)
+		BeginReloadAssembly (156ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (6861ms)
+			LoadAssemblies (113ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (263ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (6381ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (345ms)
+				ProcessInitializeOnLoadMethodAttributes (5890ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(448cd6d8e2f2cb04096e777d99974bc4) path("Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualButton.cs") state(2)
+Script is not up to date after domain reload: guid(e087ecce43ebbff45a1b360637807d93) path("Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs") state(2)
+Script is not up to date after domain reload: guid(e75357183ea302c4d998136de2cc9669) path("Assets/StarterAssets/Editor/StarterAssetsDeployMenu.cs") state(2)
+Script is not up to date after domain reload: guid(4a300d010f57451488aa99000126fbd5) path("Assets/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs") state(2)
+Script is not up to date after domain reload: guid(901182334643ba1438a25accc6bd0c79) path("Assets/StarterAssets/Mobile/Scripts/Utilities/MobileDisableAutoSwitchControls.cs") state(2)
+Script is not up to date after domain reload: guid(476cc7d7cd9874016adc216baab94a0a) path("Assets/StarterAssets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs") state(2)
+Script is not up to date after domain reload: guid(7315d24058889bb4da8c959c3f2ebaa2) path("Assets/StarterAssets/Editor/PackageChecker/PackageChecker.cs") state(2)
+Script is not up to date after domain reload: guid(f2cb8c4d669392748bb924209de33b85) path("Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualJoystick.cs") state(2)
+Script is not up to date after domain reload: guid(65870f34fef70aa44b0f562cfc810220) path("Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs") state(2)
+Script is not up to date after domain reload: guid(19d5e2567c974ac6817cbc0ae63e638c) path("Assets/StarterAssets/Editor/ScriptingDefineUtils.cs") state(2)
+Script is not up to date after domain reload: guid(b70f45aa92a641feb261c5d55ce46edf) path("Assets/StarterAssets/Editor/ThirdPersonStarterAssetsDeployMenu.cs") state(2)
+Script is not up to date after domain reload: guid(909d917d73a63f940ac158d02e936645) path("Assets/StarterAssets/ThirdPersonController/Scripts/BasicRigidBodyPush.cs") state(2)
+Script is not up to date after domain reload: guid(fcf7219bab7fe46a1ad266029b2fee19) path("Assets/StarterAssets/TutorialInfo/Scripts/Readme.cs") state(2)
+Script is not up to date after domain reload: guid(26e54e5a728a9234ab24fcf1460ed8a2) path("Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3682 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (480.2 KB). Loaded Objects now: 4279.
+Memory consumption went from 164.9 MB to 164.5 MB.
+Total: 5.335400 ms (FindLiveObjects: 0.350200 ms CreateObjectMapping: 0.120300 ms MarkObjects: 4.514400 ms  DeleteObjects: 0.349100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(448cd6d8e2f2cb04096e777d99974bc4) path("Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualButton.cs") state(2)
+Script is not up to date after domain reload: guid(e087ecce43ebbff45a1b360637807d93) path("Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs") state(2)
+Script is not up to date after domain reload: guid(e75357183ea302c4d998136de2cc9669) path("Assets/StarterAssets/Editor/StarterAssetsDeployMenu.cs") state(2)
+Script is not up to date after domain reload: guid(4a300d010f57451488aa99000126fbd5) path("Assets/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs") state(2)
+Script is not up to date after domain reload: guid(901182334643ba1438a25accc6bd0c79) path("Assets/StarterAssets/Mobile/Scripts/Utilities/MobileDisableAutoSwitchControls.cs") state(2)
+Script is not up to date after domain reload: guid(476cc7d7cd9874016adc216baab94a0a) path("Assets/StarterAssets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs") state(2)
+Script is not up to date after domain reload: guid(7315d24058889bb4da8c959c3f2ebaa2) path("Assets/StarterAssets/Editor/PackageChecker/PackageChecker.cs") state(2)
+Script is not up to date after domain reload: guid(f2cb8c4d669392748bb924209de33b85) path("Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualJoystick.cs") state(2)
+Script is not up to date after domain reload: guid(65870f34fef70aa44b0f562cfc810220) path("Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs") state(2)
+Script is not up to date after domain reload: guid(19d5e2567c974ac6817cbc0ae63e638c) path("Assets/StarterAssets/Editor/ScriptingDefineUtils.cs") state(2)
+Script is not up to date after domain reload: guid(b70f45aa92a641feb261c5d55ce46edf) path("Assets/StarterAssets/Editor/ThirdPersonStarterAssetsDeployMenu.cs") state(2)
+Script is not up to date after domain reload: guid(909d917d73a63f940ac158d02e936645) path("Assets/StarterAssets/ThirdPersonController/Scripts/BasicRigidBodyPush.cs") state(2)
+Script is not up to date after domain reload: guid(fcf7219bab7fe46a1ad266029b2fee19) path("Assets/StarterAssets/TutorialInfo/Scripts/Readme.cs") state(2)
+Script is not up to date after domain reload: guid(26e54e5a728a9234ab24fcf1460ed8a2) path("Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs") state(2)
+Refreshing native plugins compatible for Editor in 5.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (469.8 KB). Loaded Objects now: 4279.
+Memory consumption went from 90.1 MB to 89.6 MB.
+Total: 5.728600 ms (FindLiveObjects: 0.320200 ms CreateObjectMapping: 0.092100 ms MarkObjects: 4.964300 ms  DeleteObjects: 0.351000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(448cd6d8e2f2cb04096e777d99974bc4) path("Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualButton.cs") state(2)
+Script is not up to date after domain reload: guid(e087ecce43ebbff45a1b360637807d93) path("Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs") state(2)
+Script is not up to date after domain reload: guid(e75357183ea302c4d998136de2cc9669) path("Assets/StarterAssets/Editor/StarterAssetsDeployMenu.cs") state(2)
+Script is not up to date after domain reload: guid(4a300d010f57451488aa99000126fbd5) path("Assets/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs") state(2)
+Script is not up to date after domain reload: guid(901182334643ba1438a25accc6bd0c79) path("Assets/StarterAssets/Mobile/Scripts/Utilities/MobileDisableAutoSwitchControls.cs") state(2)
+Script is not up to date after domain reload: guid(476cc7d7cd9874016adc216baab94a0a) path("Assets/StarterAssets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs") state(2)
+Script is not up to date after domain reload: guid(7315d24058889bb4da8c959c3f2ebaa2) path("Assets/StarterAssets/Editor/PackageChecker/PackageChecker.cs") state(2)
+Script is not up to date after domain reload: guid(f2cb8c4d669392748bb924209de33b85) path("Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualJoystick.cs") state(2)
+Script is not up to date after domain reload: guid(65870f34fef70aa44b0f562cfc810220) path("Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs") state(2)
+Script is not up to date after domain reload: guid(19d5e2567c974ac6817cbc0ae63e638c) path("Assets/StarterAssets/Editor/ScriptingDefineUtils.cs") state(2)
+Script is not up to date after domain reload: guid(b70f45aa92a641feb261c5d55ce46edf) path("Assets/StarterAssets/Editor/ThirdPersonStarterAssetsDeployMenu.cs") state(2)
+Script is not up to date after domain reload: guid(909d917d73a63f940ac158d02e936645) path("Assets/StarterAssets/ThirdPersonController/Scripts/BasicRigidBodyPush.cs") state(2)
+Script is not up to date after domain reload: guid(fcf7219bab7fe46a1ad266029b2fee19) path("Assets/StarterAssets/TutorialInfo/Scripts/Readme.cs") state(2)
+Script is not up to date after domain reload: guid(26e54e5a728a9234ab24fcf1460ed8a2) path("Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs") state(2)
+Refreshing native plugins compatible for Editor in 3.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (485.7 KB). Loaded Objects now: 4279.
+Memory consumption went from 90.1 MB to 89.6 MB.
+Total: 4.434700 ms (FindLiveObjects: 0.300800 ms CreateObjectMapping: 0.086900 ms MarkObjects: 3.733800 ms  DeleteObjects: 0.312400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1182971.301629 seconds.
+  path: Assets/CHaracter-JustWalk.fbx
+  artifactKey: Guid(1a18a56519a6709478b05d967d552c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CHaracter-JustWalk.fbx using Guid(1a18a56519a6709478b05d967d552c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cabfc5dc23a1c4859452c904d0f3e100') in 0.608652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.190881 seconds.
+  path: Assets/Settings/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(ab1446aaa10169144a0e09dff1ff004d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRenderPipelineAsset_Renderer.asset using Guid(ab1446aaa10169144a0e09dff1ff004d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88ec62931e42ac85ecfffdf0f66b9b6') in 0.008860 seconds 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(448cd6d8e2f2cb04096e777d99974bc4) path("Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualButton.cs") state(2)
+Script is not up to date after domain reload: guid(e087ecce43ebbff45a1b360637807d93) path("Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs") state(2)
+Script is not up to date after domain reload: guid(e75357183ea302c4d998136de2cc9669) path("Assets/StarterAssets/Editor/StarterAssetsDeployMenu.cs") state(2)
+Script is not up to date after domain reload: guid(4a300d010f57451488aa99000126fbd5) path("Assets/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs") state(2)
+Script is not up to date after domain reload: guid(901182334643ba1438a25accc6bd0c79) path("Assets/StarterAssets/Mobile/Scripts/Utilities/MobileDisableAutoSwitchControls.cs") state(2)
+Script is not up to date after domain reload: guid(476cc7d7cd9874016adc216baab94a0a) path("Assets/StarterAssets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs") state(2)
+Script is not up to date after domain reload: guid(7315d24058889bb4da8c959c3f2ebaa2) path("Assets/StarterAssets/Editor/PackageChecker/PackageChecker.cs") state(2)
+Script is not up to date after domain reload: guid(f2cb8c4d669392748bb924209de33b85) path("Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualJoystick.cs") state(2)
+Script is not up to date after domain reload: guid(65870f34fef70aa44b0f562cfc810220) path("Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs") state(2)
+Script is not up to date after domain reload: guid(19d5e2567c974ac6817cbc0ae63e638c) path("Assets/StarterAssets/Editor/ScriptingDefineUtils.cs") state(2)
+Script is not up to date after domain reload: guid(b70f45aa92a641feb261c5d55ce46edf) path("Assets/StarterAssets/Editor/ThirdPersonStarterAssetsDeployMenu.cs") state(2)
+Script is not up to date after domain reload: guid(909d917d73a63f940ac158d02e936645) path("Assets/StarterAssets/ThirdPersonController/Scripts/BasicRigidBodyPush.cs") state(2)
+Script is not up to date after domain reload: guid(fcf7219bab7fe46a1ad266029b2fee19) path("Assets/StarterAssets/TutorialInfo/Scripts/Readme.cs") state(2)
+Script is not up to date after domain reload: guid(26e54e5a728a9234ab24fcf1460ed8a2) path("Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs") state(2)
+Registering precompiled user dll's ...
+Registered in 0.004938 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.396 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1397ms)
+		BeginReloadAssembly (159ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1118ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (245ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (622ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (369ms)
+				ProcessInitializeOnLoadMethodAttributes (97ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(448cd6d8e2f2cb04096e777d99974bc4) path("Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualButton.cs") state(2)
+Script is not up to date after domain reload: guid(e087ecce43ebbff45a1b360637807d93) path("Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs") state(2)
+Script is not up to date after domain reload: guid(e75357183ea302c4d998136de2cc9669) path("Assets/StarterAssets/Editor/StarterAssetsDeployMenu.cs") state(2)
+Script is not up to date after domain reload: guid(4a300d010f57451488aa99000126fbd5) path("Assets/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs") state(2)
+Script is not up to date after domain reload: guid(901182334643ba1438a25accc6bd0c79) path("Assets/StarterAssets/Mobile/Scripts/Utilities/MobileDisableAutoSwitchControls.cs") state(2)
+Script is not up to date after domain reload: guid(476cc7d7cd9874016adc216baab94a0a) path("Assets/StarterAssets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs") state(2)
+Script is not up to date after domain reload: guid(7315d24058889bb4da8c959c3f2ebaa2) path("Assets/StarterAssets/Editor/PackageChecker/PackageChecker.cs") state(2)
+Script is not up to date after domain reload: guid(f2cb8c4d669392748bb924209de33b85) path("Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualJoystick.cs") state(2)
+Script is not up to date after domain reload: guid(65870f34fef70aa44b0f562cfc810220) path("Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs") state(2)
+Script is not up to date after domain reload: guid(19d5e2567c974ac6817cbc0ae63e638c) path("Assets/StarterAssets/Editor/ScriptingDefineUtils.cs") state(2)
+Script is not up to date after domain reload: guid(b70f45aa92a641feb261c5d55ce46edf) path("Assets/StarterAssets/Editor/ThirdPersonStarterAssetsDeployMenu.cs") state(2)
+Script is not up to date after domain reload: guid(909d917d73a63f940ac158d02e936645) path("Assets/StarterAssets/ThirdPersonController/Scripts/BasicRigidBodyPush.cs") state(2)
+Script is not up to date after domain reload: guid(fcf7219bab7fe46a1ad266029b2fee19) path("Assets/StarterAssets/TutorialInfo/Scripts/Readme.cs") state(2)
+Script is not up to date after domain reload: guid(26e54e5a728a9234ab24fcf1460ed8a2) path("Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs") state(2)
+Refreshing native plugins compatible for Editor in 1.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3684 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (481.1 KB). Loaded Objects now: 4349.
+Memory consumption went from 183.6 MB to 183.1 MB.
+Total: 3.962700 ms (FindLiveObjects: 0.317900 ms CreateObjectMapping: 0.092400 ms MarkObjects: 3.257300 ms  DeleteObjects: 0.294200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(448cd6d8e2f2cb04096e777d99974bc4) path("Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualButton.cs") state(2)
+Script is not up to date after domain reload: guid(e087ecce43ebbff45a1b360637807d93) path("Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs") state(2)
+Script is not up to date after domain reload: guid(e75357183ea302c4d998136de2cc9669) path("Assets/StarterAssets/Editor/StarterAssetsDeployMenu.cs") state(2)
+Script is not up to date after domain reload: guid(4a300d010f57451488aa99000126fbd5) path("Assets/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs") state(2)
+Script is not up to date after domain reload: guid(901182334643ba1438a25accc6bd0c79) path("Assets/StarterAssets/Mobile/Scripts/Utilities/MobileDisableAutoSwitchControls.cs") state(2)
+Script is not up to date after domain reload: guid(476cc7d7cd9874016adc216baab94a0a) path("Assets/StarterAssets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs") state(2)
+Script is not up to date after domain reload: guid(7315d24058889bb4da8c959c3f2ebaa2) path("Assets/StarterAssets/Editor/PackageChecker/PackageChecker.cs") state(2)
+Script is not up to date after domain reload: guid(f2cb8c4d669392748bb924209de33b85) path("Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualJoystick.cs") state(2)
+Script is not up to date after domain reload: guid(65870f34fef70aa44b0f562cfc810220) path("Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs") state(2)
+Script is not up to date after domain reload: guid(19d5e2567c974ac6817cbc0ae63e638c) path("Assets/StarterAssets/Editor/ScriptingDefineUtils.cs") state(2)
+Script is not up to date after domain reload: guid(b70f45aa92a641feb261c5d55ce46edf) path("Assets/StarterAssets/Editor/ThirdPersonStarterAssetsDeployMenu.cs") state(2)
+Script is not up to date after domain reload: guid(909d917d73a63f940ac158d02e936645) path("Assets/StarterAssets/ThirdPersonController/Scripts/BasicRigidBodyPush.cs") state(2)
+Script is not up to date after domain reload: guid(fcf7219bab7fe46a1ad266029b2fee19) path("Assets/StarterAssets/TutorialInfo/Scripts/Readme.cs") state(2)
+Script is not up to date after domain reload: guid(26e54e5a728a9234ab24fcf1460ed8a2) path("Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs") state(2)
+Refreshing native plugins compatible for Editor in 5.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (477.8 KB). Loaded Objects now: 4349.
+Memory consumption went from 109.8 MB to 109.3 MB.
+Total: 4.255300 ms (FindLiveObjects: 0.331200 ms CreateObjectMapping: 0.099900 ms MarkObjects: 3.500200 ms  DeleteObjects: 0.323200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(448cd6d8e2f2cb04096e777d99974bc4) path("Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualButton.cs") state(2)
+Script is not up to date after domain reload: guid(e087ecce43ebbff45a1b360637807d93) path("Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs") state(2)
+Script is not up to date after domain reload: guid(e75357183ea302c4d998136de2cc9669) path("Assets/StarterAssets/Editor/StarterAssetsDeployMenu.cs") state(2)
+Script is not up to date after domain reload: guid(4a300d010f57451488aa99000126fbd5) path("Assets/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs") state(2)
+Script is not up to date after domain reload: guid(901182334643ba1438a25accc6bd0c79) path("Assets/StarterAssets/Mobile/Scripts/Utilities/MobileDisableAutoSwitchControls.cs") state(2)
+Script is not up to date after domain reload: guid(476cc7d7cd9874016adc216baab94a0a) path("Assets/StarterAssets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs") state(2)
+Script is not up to date after domain reload: guid(7315d24058889bb4da8c959c3f2ebaa2) path("Assets/StarterAssets/Editor/PackageChecker/PackageChecker.cs") state(2)
+Script is not up to date after domain reload: guid(f2cb8c4d669392748bb924209de33b85) path("Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualJoystick.cs") state(2)
+Script is not up to date after domain reload: guid(65870f34fef70aa44b0f562cfc810220) path("Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs") state(2)
+Script is not up to date after domain reload: guid(19d5e2567c974ac6817cbc0ae63e638c) path("Assets/StarterAssets/Editor/ScriptingDefineUtils.cs") state(2)
+Script is not up to date after domain reload: guid(b70f45aa92a641feb261c5d55ce46edf) path("Assets/StarterAssets/Editor/ThirdPersonStarterAssetsDeployMenu.cs") state(2)
+Script is not up to date after domain reload: guid(909d917d73a63f940ac158d02e936645) path("Assets/StarterAssets/ThirdPersonController/Scripts/BasicRigidBodyPush.cs") state(2)
+Script is not up to date after domain reload: guid(fcf7219bab7fe46a1ad266029b2fee19) path("Assets/StarterAssets/TutorialInfo/Scripts/Readme.cs") state(2)
+Script is not up to date after domain reload: guid(26e54e5a728a9234ab24fcf1460ed8a2) path("Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs") state(2)
+Registering precompiled user dll's ...
+Registered in 0.004621 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.444 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1445ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1156ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (249ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (643ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (372ms)
+				ProcessInitializeOnLoadMethodAttributes (107ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(448cd6d8e2f2cb04096e777d99974bc4) path("Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualButton.cs") state(2)
+Script is not up to date after domain reload: guid(e087ecce43ebbff45a1b360637807d93) path("Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs") state(2)
+Script is not up to date after domain reload: guid(e75357183ea302c4d998136de2cc9669) path("Assets/StarterAssets/Editor/StarterAssetsDeployMenu.cs") state(2)
+Script is not up to date after domain reload: guid(4a300d010f57451488aa99000126fbd5) path("Assets/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs") state(2)
+Script is not up to date after domain reload: guid(901182334643ba1438a25accc6bd0c79) path("Assets/StarterAssets/Mobile/Scripts/Utilities/MobileDisableAutoSwitchControls.cs") state(2)
+Script is not up to date after domain reload: guid(476cc7d7cd9874016adc216baab94a0a) path("Assets/StarterAssets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs") state(2)
+Script is not up to date after domain reload: guid(7315d24058889bb4da8c959c3f2ebaa2) path("Assets/StarterAssets/Editor/PackageChecker/PackageChecker.cs") state(2)
+Script is not up to date after domain reload: guid(f2cb8c4d669392748bb924209de33b85) path("Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualJoystick.cs") state(2)
+Script is not up to date after domain reload: guid(65870f34fef70aa44b0f562cfc810220) path("Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs") state(2)
+Script is not up to date after domain reload: guid(19d5e2567c974ac6817cbc0ae63e638c) path("Assets/StarterAssets/Editor/ScriptingDefineUtils.cs") state(2)
+Script is not up to date after domain reload: guid(b70f45aa92a641feb261c5d55ce46edf) path("Assets/StarterAssets/Editor/ThirdPersonStarterAssetsDeployMenu.cs") state(2)
+Script is not up to date after domain reload: guid(909d917d73a63f940ac158d02e936645) path("Assets/StarterAssets/ThirdPersonController/Scripts/BasicRigidBodyPush.cs") state(2)
+Script is not up to date after domain reload: guid(fcf7219bab7fe46a1ad266029b2fee19) path("Assets/StarterAssets/TutorialInfo/Scripts/Readme.cs") state(2)
+Script is not up to date after domain reload: guid(26e54e5a728a9234ab24fcf1460ed8a2) path("Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs") state(2)
+Refreshing native plugins compatible for Editor in 2.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3685 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (472.7 KB). Loaded Objects now: 4364.
+Memory consumption went from 183.6 MB to 183.1 MB.
+Total: 5.089500 ms (FindLiveObjects: 0.411600 ms CreateObjectMapping: 0.309400 ms MarkObjects: 3.987500 ms  DeleteObjects: 0.379100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Script is not up to date after domain reload: guid(448cd6d8e2f2cb04096e777d99974bc4) path("Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualButton.cs") state(2)
+Script is not up to date after domain reload: guid(e087ecce43ebbff45a1b360637807d93) path("Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs") state(2)
+Script is not up to date after domain reload: guid(e75357183ea302c4d998136de2cc9669) path("Assets/StarterAssets/Editor/StarterAssetsDeployMenu.cs") state(2)
+Script is not up to date after domain reload: guid(4a300d010f57451488aa99000126fbd5) path("Assets/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs") state(2)
+Script is not up to date after domain reload: guid(901182334643ba1438a25accc6bd0c79) path("Assets/StarterAssets/Mobile/Scripts/Utilities/MobileDisableAutoSwitchControls.cs") state(2)
+Script is not up to date after domain reload: guid(476cc7d7cd9874016adc216baab94a0a) path("Assets/StarterAssets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs") state(2)
+Script is not up to date after domain reload: guid(7315d24058889bb4da8c959c3f2ebaa2) path("Assets/StarterAssets/Editor/PackageChecker/PackageChecker.cs") state(2)
+Script is not up to date after domain reload: guid(f2cb8c4d669392748bb924209de33b85) path("Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualJoystick.cs") state(2)
+Script is not up to date after domain reload: guid(65870f34fef70aa44b0f562cfc810220) path("Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs") state(2)
+Script is not up to date after domain reload: guid(19d5e2567c974ac6817cbc0ae63e638c) path("Assets/StarterAssets/Editor/ScriptingDefineUtils.cs") state(2)
+Script is not up to date after domain reload: guid(b70f45aa92a641feb261c5d55ce46edf) path("Assets/StarterAssets/Editor/ThirdPersonStarterAssetsDeployMenu.cs") state(2)
+Script is not up to date after domain reload: guid(909d917d73a63f940ac158d02e936645) path("Assets/StarterAssets/ThirdPersonController/Scripts/BasicRigidBodyPush.cs") state(2)
+Script is not up to date after domain reload: guid(fcf7219bab7fe46a1ad266029b2fee19) path("Assets/StarterAssets/TutorialInfo/Scripts/Readme.cs") state(2)
+Script is not up to date after domain reload: guid(26e54e5a728a9234ab24fcf1460ed8a2) path("Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs") state(2)
+Refreshing native plugins compatible for Editor in 4.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (469.9 KB). Loaded Objects now: 4364.
+Memory consumption went from 109.7 MB to 109.3 MB.
+Total: 4.253700 ms (FindLiveObjects: 0.367100 ms CreateObjectMapping: 0.102500 ms MarkObjects: 3.438400 ms  DeleteObjects: 0.344500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 239.549623 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/BakedLitForwardPass.hlsl
+  artifactKey: Guid(70003ec87ea6481a920369a377c1b623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/BakedLitForwardPass.hlsl using Guid(70003ec87ea6481a920369a377c1b623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a558242cc3fd469c18af663bc5a227') in 0.026506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/LitMetaPass.hlsl
+  artifactKey: Guid(dcf4e762d48204e33b575f8007e3d563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/LitMetaPass.hlsl using Guid(dcf4e762d48204e33b575f8007e3d563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022c721143f371040d2b79db434fa9f9') in 0.003925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/UnlitForwardPass.hlsl
+  artifactKey: Guid(574332cc54d34b3b96cd214f5febe833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/UnlitForwardPass.hlsl using Guid(574332cc54d34b3b96cd214f5febe833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6564ef3dd5064701966f9558584bf70b') in 0.004442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/LitDepthNormalsPass.hlsl
+  artifactKey: Guid(d6641dcdedd1f422aa58ffec746e5342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/LitDepthNormalsPass.hlsl using Guid(d6641dcdedd1f422aa58ffec746e5342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1feb398cd5c53d30eb2cc4068c1732bc') in 0.004091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/BakedLitMetaPass.hlsl
+  artifactKey: Guid(f31bf343921b848fa8e5cde15f1dbaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/BakedLitMetaPass.hlsl using Guid(f31bf343921b848fa8e5cde15f1dbaab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb931713256460314ce0c4037ecc4e9') in 0.004361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/UnlitInput.hlsl
+  artifactKey: Guid(e7ba75cc852b14b7f934978b5697bf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/UnlitInput.hlsl using Guid(e7ba75cc852b14b7f934978b5697bf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2455d9498df800e6c695d66065d7342') in 0.004246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/UnlitDepthNormalsPass.hlsl
+  artifactKey: Guid(ce8b43269e26f4263ac0da53665264b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/UnlitDepthNormalsPass.hlsl using Guid(ce8b43269e26f4263ac0da53665264b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ad0530a6bfc7418053c68f20f4895b') in 0.003875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl
+  artifactKey: Guid(ad863d097888f42c6bcf419efb2946c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitInput.hlsl using Guid(ad863d097888f42c6bcf419efb2946c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37fcb51b5b565232c1430601ef7782c3') in 0.004251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/UnlitMetaPass.hlsl
+  artifactKey: Guid(138efaf7fb432134da44d5a4981a62ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/UnlitMetaPass.hlsl using Guid(138efaf7fb432134da44d5a4981a62ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd968e2da2d4ce6f6bd6dea16aec9534') in 0.004717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/LitGBufferPass.hlsl
+  artifactKey: Guid(92673cbb58cac8e4d8b5d044ce912dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/LitGBufferPass.hlsl using Guid(92673cbb58cac8e4d8b5d044ce912dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbd3fae03b4d8e7ae8bc64e74316596') in 0.004023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitForwardPass.hlsl
+  artifactKey: Guid(ee447e65526c7db45a978c16b28827a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/SimpleLitForwardPass.hlsl using Guid(ee447e65526c7db45a978c16b28827a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5089f0f673c289d3e5c48d04194e856') in 0.003900 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
